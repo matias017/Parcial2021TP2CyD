@@ -16,6 +16,7 @@
 
 const sale = function (article, cant){
   
+  return sale
 }
 
 // TESTS (no modificar)
