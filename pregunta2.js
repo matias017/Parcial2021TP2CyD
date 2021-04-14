@@ -17,9 +17,9 @@
 const sale = function (article, cant){
   if(article<=cant){
     article.cant==article.cant-cant
-  return= 200
+  return 200
   }else{
-   return= 500
+   return 500
   }
   
 }
