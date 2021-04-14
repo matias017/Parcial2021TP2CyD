@@ -5,10 +5,26 @@
 
 const even = function(numbers){
     
+    let par = [];
+    for(let i= 0;i<numbers.length;i++){
+        if(i % 2 ==0){
+            par.push(array[i]);
+        }
+        
+    }
+    return numbers
 }
-
 const odd = function(numbers){
-
+    
+    
+    let impar = [];
+    for(let i= 0;i<numbers.length;i++){
+        if(i % 2 !=0){
+            impar.push(array[i]);
+        }
+        
+    }
+    return numbers
 }
 
 // TESTS (no modificar)
