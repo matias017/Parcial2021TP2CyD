@@ -17,11 +17,11 @@
 const sale = function (article, cant){
   if(article<=cant){
     article.cant==article.cant-cant
-  sale= 200
+  return= 200
   }else{
-   sale= 500
+   return= 500
   }
-  return sale
+  
 }
 
 // TESTS (no modificar)
