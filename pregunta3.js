@@ -2,8 +2,10 @@
 // Por ejemplo en: [4,3,4,5,1] el tercer mayor es 3
 // si la longitud del array es < 3 se debe retornar undefined
 
-const greater3 = nums => {
+const greater3 = function (array1) {
+    array1.sort 
     
+    return array1[2]
 }
 
 
