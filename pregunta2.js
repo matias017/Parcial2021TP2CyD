@@ -13,7 +13,7 @@
     shirts: 10,
     pants: 5,
   }
-function identificar (articulo){
+const identificar= function  (articulo){
   if(articulo=='shoes'){
     return inventory.shoes
   } else if(articulo=='sorks'){
