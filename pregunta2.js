@@ -24,7 +24,7 @@ function identificar (articulo){
   return inventory.shirts
 }
 const sale = function (article, cant){
-     art:identificar(article)
+      art=identificar(article)
   if(art<=cant){
     article==article-cant
   return 200
