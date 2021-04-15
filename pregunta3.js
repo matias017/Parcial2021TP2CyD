@@ -4,7 +4,9 @@
 
 const greater3 = function (array1) {
     array1.sort 
-    
+    if(array1.lenght<3){
+        return undefined
+    }
     return array1[2]
 }
 
