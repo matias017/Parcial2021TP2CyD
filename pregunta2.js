@@ -15,7 +15,7 @@
   }
 
 const sale = function (article, cant){
-  if(article<=cant){
+  if(ainventory.search(article)<=cant){
     article.cant==article.cant-cant
   return 200
   }else{
