@@ -20,8 +20,10 @@ const identificar= function  (articulo){
     return inventory.sorks 
   } else if(articulo=='pants'){
     return inventory.pants
+  }else{
+    return inventory.shirts
   }
-  return inventory.shirts
+  
 }
 const sale = function (article, cant){
       art=identificar(article)
