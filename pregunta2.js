@@ -16,9 +16,9 @@
 function identificar (articulo){
   if(articulo=='shoes'){
     return inventory.shoes
-  } if(articulo=='sorks'){
+  } else if(articulo=='sorks'){
     return inventory.sorks 
-  }if(articulo=='pants'){
+  } else if(articulo=='pants'){
     return inventory.pants
   }
   return inventory.shirts
