@@ -13,9 +13,19 @@
     shirts: 10,
     pants: 5,
   }
-
+function identificar (articulo){
+  if(articulo=='shoes'){
+    return inventory.shoes
+  } if(articulo=='sorks'){
+    return inventory.sorks 
+  }if(articulo=='pants'){
+    return inventory.pants
+  }
+  return inventory.shirts
+}
 const sale = function (article, cant){
-  if(article<=cant){
+     art:identificar(article)
+  if(art<=cant){
     article==article-cant
   return 200
   }else{
