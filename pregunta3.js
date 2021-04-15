@@ -6,8 +6,10 @@ const greater3 = function (array1) {
     array1.sort 
     if(array1.lenght<3){
         return undefined
+    } else {
+        return array1[2]
     }
-    return array1[2]
+    
 }
 
 
